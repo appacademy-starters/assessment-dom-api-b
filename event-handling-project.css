@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+#clicked-div {
+  border: 1px solid purple;
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+}
+
+input {
+  min-width: 200px;
+}
+
+input, 
+button, 
+#clicked-div {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: green;
+}
+
+#drop-circle-here {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
